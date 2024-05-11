@@ -1,4 +1,4 @@
-package part3.ex4;
+package part3.ex4.java65HasA상속;
 
 import part3.ex5.java65HasA상속.Exam;
 
