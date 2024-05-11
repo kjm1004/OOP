@@ -10,7 +10,7 @@ public class program {
 		System.out.println(exam.total());
 		
 		
-		NewlecExam exam1 = new NewlecExam();
+		NewlecExam exam1 = new NewlecExam(1,1,1,1);
 		System.out.println(exam1.total());
 		
 		exam1.setKor(10);
