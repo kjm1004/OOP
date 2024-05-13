@@ -1,15 +1,14 @@
 package part3.ex5.java76추상화;
 
-import part3.ex5.java65HasA상속.ExamConsole;
+import part3.ex5.java78추상메소드구현body.ExamConsole;
 
 public class program {
 
 	public static void main(String[] args) {
 		//NewlecExam exam = new NewlecExam();
 	
-		ExamConsole console = new NewlecExamConsole();
-		console.input();
-		console.print();
+		NewlecExam exam = new NewlecExam();
+
 	}
 
 }

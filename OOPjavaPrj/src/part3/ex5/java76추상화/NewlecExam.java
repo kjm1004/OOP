@@ -1,10 +1,12 @@
 package part3.ex5.java76추상화;
 
-import part3.ex4.java63UI코드분리하기2.Exam;
 
 public class NewlecExam extends Exam{
 
 	private int com;
+	
+	
+	
 	
 	// 새로 추가된 com 과목을 위한 생성자 작성
 	public NewlecExam() {
@@ -24,6 +26,10 @@ public class NewlecExam extends Exam{
 		this.com = com;
 	}
 
+	
+	
+	
+	
 	@Override
 	public int total() {
 		int total = getKor() + getEng() + getMath() + getCom();
