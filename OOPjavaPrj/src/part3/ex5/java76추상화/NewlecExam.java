@@ -1,5 +1,6 @@
 package part3.ex5.java76추상화;
 
+import part3.ex4.java76추상화.Exam;
 
 public class NewlecExam extends Exam{
 
@@ -26,10 +27,7 @@ public class NewlecExam extends Exam{
 		this.com = com;
 	}
 
-	
-	
-	
-	
+		
 	@Override
 	public int total() {
 		int total = getKor() + getEng() + getMath() + getCom();
