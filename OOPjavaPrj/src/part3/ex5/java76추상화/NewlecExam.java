@@ -1,5 +1,7 @@
 package part3.ex5.java76추상화;
 
+import part3.ex4.java63UI코드분리하기2.Exam;
+
 public class NewlecExam extends Exam{
 
 	private int com;
@@ -27,6 +29,11 @@ public class NewlecExam extends Exam{
 		int total = getKor() + getEng() + getMath() + getCom();
 		int total2 = onTotal() + com;		// 부모 객체 함수를 사용하려면 부모객체서 protected로 선언
 		return total;
+	}
+
+	private int onTotal() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
